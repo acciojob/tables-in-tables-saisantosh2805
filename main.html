@@ -1,57 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Table</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
     <style>
-    table,th,td{
-        border: 1px solid black;
-            text-align: center;
-    }
-    .Nested{
-      color:blue;
-    }
-      .black-cell{
-        background-color: black;
-       color: white;
+      .black{
+        background-color:black;
+        color: white;
+      }
+      .nested{
+        colour:blue;
       }
     </style>
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
-</html>
-
-          <th>
-          <table border=1>
-            <thead><th colspan="2">Nested table 2</th></thead>
-            <tbody><tr>
-              <td>coloumn 1</td>
-              <td>coloumn 2</td>
-              </tr>
-            <tr>
-              <td>abc</td>
-              <td>def</td>
-              </tr></tbody></th></table></td>
-		<td><table border =1>
-            <thead><th>Nested table 1</th></thead>
-           <td> <ul>
-              <li>List item</li>
-              <li>List item</li>
-              <li>List item</li>
-              </ul></td>
-              </table></td>
-		</tr>
-		<tr>
-		<td><table border=1>
-       <thead><th colspan="2">Nested table 3</th></thead>
-     <td class="Nested"><u>Nested table</u></td>
-     <td>Demo continued</td></th></tr>
+      <table border =1>
+        <tr>
+          <td><table border=1><tr><th colspan="2">Nested table 2</th></tr>
+          <tr><td>column 1</td>
+          <td>column 2</td></tr><tr><td>abc</td>
+          <td>def</td></tr></table></td>
+          <td><table border=1><tr><th colspan="2">Nested table 1</th></tr>
+          <tr><td><ul><li>List item</li>
+          <li>List item</li>
+          <li>List item</li></ul></td></tr></table></td></tr>
+          
+       
+        <tr>
+          <td><table border=1>
+            <tr><th colspan="2">Nested table 3</th></tr>
+            <tr><td color="nested"><u>Nested table</u></td>
+            <td>Demo continued</td></tr>
+          </table></td>
+          <td><table border=1><tr><th colspan="2">Nested table 4</th></tr>
+          <td class="black">Html</td></table></td>
+        </tr>
+      </table>
      
-    
-    </table></td>
-		<td><tableborder=1><table border=1><thead><th>Nested table 4</th></thead>
-     <td class= "black-cell">HTML</td>
-     </table></td>
-			</tr></table>
+  </body>
+</html>
